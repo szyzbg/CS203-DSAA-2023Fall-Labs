@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>SUSTech Online Judge</title>  
+    
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="template/bs3/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="template/bs3/bootstrap-theme.min.css">
+<link rel="stylesheet" href="template/bs3/white.css">
+<link rel="stylesheet" href="template/bs3/katex.min.css">
+<link rel="stylesheet" href="template/bs3/mathjax.css">
+<link rel="stylesheet" href="template/bs3/semantic.min.css">
+	    
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+          <!-- Static navbar -->
+      <nav class="navbar navbar-default" role="navigation" >
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./">SUSTech Online Judge</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+	                    <li ><a href="bbs.php">讨论版</a></li>
+              <li ><a href="faqs.php">常见问答</a></li>
+              <li ><a href="problemset.php">问题</a></li>
+              <li ><a href="category.php">来源/分类</a></li>
+              <li ><a href="status.php">状态</a></li>
+              <li ><a href="ranklist.php">排名</a></li>
+              <li ><a href="contest.php">竞赛&作业</a></li>
+	      <li><a>[</a></li>
+              <li class="active" ><a href="contest.php?cid=1133">
+			问题	      </a></li>
+               <li  class="active" ><a href="status.php?cid=1133">
+			状态	      </a></li>
+              <li  class="active" ><a href="contestrank.php?cid=1133">
+			排名	      </a></li>
+              <li  class="active" ><a href="contestrank-oi.php?cid=1133">OI
+			排名	      </a></li>
+              <li  class="active" ><a href="conteststatistics.php?cid=1133">
+			统计	      </a></li>
+	      <li><a>]</a></li>
+              <!--<li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+	-->
+            </ul>
+		<!--
+                <div class="btn-group btn-group-sm" role="group" aria-label="Extra-small button group">
+                 <button type="button" class="btn btn-default">中文</button>
+                 <button type="button" class="btn btn-default">Eng</button>
+                </div>
+		-->
+
+	    <ul class="nav navbar-nav navbar-right">
+	    <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span id="profile">Login</span><span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+<script src="template/bs3/profile.php?1355951315" ></script>
+              <!--<li><a href="../navbar-fixed-top/">Fixed top</a></li>-->
+	    </ul>
+	    </li>
+            </ul>
+				<ul class="nav navbar-nav navbar-right">
+			<li class="btn-group btn-group-sm" role="group">
+			<a class="btn btn-default navbar-btn " href="setlang.php?lang=cn" role="button">中</a>
+			<a class="btn btn-default navbar-btn " href="setlang.php?lang=en" role="button">EN</a>
+			<!--
+                	 <button type="button" class="btn btn-default">中</button>
+                	 <button type="button" class="btn btn-default">EN</button>
+               		-->
+			 </li>
+		</ul>
+		          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+	<!--<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279482696'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279482696' type='text/javascript'%3E%3C/script%3E"));</script>-->
+	</nav>
+	    
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+	
+<title>问题 B: Search Problem II </title><center><h2>问题 B: Search Problem II</h2><span class=green>时间限制: </span>1 Sec&nbsp;&nbsp;<span class=green>内存限制: </span>128 MB<br><span class=green>提交: </span>1986&nbsp;&nbsp;<span class=green>解决: </span>558<br>[<a href='submitpage.php?cid=1133&pid=1&langmask=0'>提交</a>][<a href='problemstatus.php?id=1415'>状态</a>][<a href='bbs.php?pid=1415&cid=1133'>讨论版</a>]</center><h2>题目描述</h2><div class=content><p>
+	<span><span style="font-size:16px;">Given
+two arrays A with length n and B with length T. We want to know whether each
+element in array B is in array A or not.</span></span> 
+</p>
+<p>
+	<br />
+</p>
+<p>
+	<span><span style="font-size:16px;"><span style="font-size:16px;">Since the input is large, you may need fast I/O (in Java). Java Faster I/O is shown via following links:&nbsp;</span><a href="https://pastebin.ubuntu.com/p/zBd3g4j366/">https://pastebin.ubuntu.com/p/zBd3g4j366/</a><br />
+</span></span> 
+</p></div><h2>输入</h2><div class=content><p style="text-align:left;">
+	<span style="font-size:16px;">The 1st line is a positive integer \(n\) \( ( n \leq 10^6) \)</span> 
+</p>
+<p style="text-align:left;">
+	<span style="font-size:16px;">The 2nd line contains&nbsp;</span><span style="font-size:16px;">\(n\) integers: \( a_1,a_2...a_n.For \ each \ a_i, 0 \leq a_i \leq 10^5 \)</span> 
+</p>
+<p style="text-align:left;">
+	<span style="font-size:16px;">The 3rd line contains a positive integer \(T (T \leq 10^6)\)</span> 
+</p>
+<p style="text-align:left;">
+	<span style="font-size:16px;">The 4th line contains \(T\) integers \(b_1,b_2,...b_T.For \ each \ b_i, 0 \leq b_i \leq 10^5 \)</span> 
+</p></div><h2>输出</h2><div class=content><span style="font-size:16px;">For each element in \(B\), print "yes" (in a single line, without quotes) if it is in \(A\), otherwise print "no"</span></div><h2>样例输入</h2>
+<pre class=content><span class=sampledata>4
+2 3 9999 1
+2
+3 99
+</span></pre><h2>样例输出</h2>
+<pre class=content><span class=sampledata>yes
+no</span></pre><h2>提示</h2>
+<div class=content><p><p class="MsoNormal"><br />
+	<span style="font-size:14px;font-family:&quot;"><strong>Note that the integer value ranges are different in Problem 1 and 2.</strong></span> <br />
+</p><br />
+<p class="MsoNormal"><br />
+	<span style="font-size:14px;color:rgba(0, 0, 0, 0.87);font-family:&quot;"><strong>C++使用cin/cout关同步方法:&nbsp;</strong></span><span style="font-size:14px;color:rgba(0, 0, 0, 0.87);font-family:&quot;"><strong>ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);</strong></span> <br />
+</p><br />
+<p class="MsoNormal"><br />
+	<span style="font-size:14px;font-family:&quot;"><strong>endl 要换成 '\n'</strong></span> <br />
+</p><br />
+<p><br />
+	<br /><br />
+</p></p></div><center>[<a href='submitpage.php?cid=1133&pid=1&langmask=0'>提交</a>][<a href='problemstatus.php?id=1415'>状态</a>]</center>      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="template/bs3/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="template/bs3/bootstrap.min.js"></script>
+
+
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/javascript">document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1279482696'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279482696' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<script>
+$(document).ready(function(){
+  var msg="<marquee style='margin-top:10px' id=broadcast scrollamount=1 scrolldelay=50 onMouseOver='this.stop()'"+
+      " onMouseOut='this.start()' class=toprow>"+""+"</marquee>";
+  $(".jumbotron").prepend(msg);
+  $("form").append("<div id='csrf' />");
+  $("#csrf").load("csrf.php");
+  $("body").append("<div id=footer class=center >GPLv2 licensed by HUSTOJ</a> "+(new Date()).getFullYear()+" </div>");
+})
+</script>
+
+	
+<script>
+function phpfm(pid){
+        //alert(pid);
+        $.post("admin/phpfm.php",{'frame':3,'pid':pid,'pass':''},function(data,status){
+                if(status=="success"){
+                        document.location.href="admin/phpfm.php?frame=3&pid="+pid;
+                }
+        });
+}
+</script>	  
+  </body>
+</html>
+<!--not cached-->
+
